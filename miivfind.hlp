@@ -1,0 +1,32 @@
+{smcl}
+{* 21 October12}{É}
+{hi:help miivfind}{right: ({browse [add link] )}
+{hline}
+
+{title:Title}
+
+{p2colset 5 14 16 2}{...}
+{p2col :{hi:miivfind} {hline 2}}Find model-implied instrumental variables{p_end}
+{p2colreset}{...}
+
+
+{title:Syntax}
+
+{p 8 14 2} {cmd:miivfind} {matlist} 
+
+{pstd}
+The vectors/matrices are defined in advance by the user and include the following 11 vectors/matrices {it:y1}, {it:y2}, {it:x1}, {it:x2}, {it:Beta}, {it:Gamma}, {it:Lam_y2}, {it:Lam_x2}, {it:Theta_ep}, {it:Theta_del}, {it:Psi}. The vectors/matrices can have any name, but must appear in the order listed above.
+
+
+{title:Description}
+
+{pstd}
+{cmd:miivfind} is a command that implements Bollen and Bauer's (2004) algorithm for finding model-implied instrumental variables for identified structural equation models.
+
+
+{title:Also see}
+
+{p 4 14 2}
+Article: Bollen, K. A. and D. J. Bauer. 2004. Automating the selection of model-implied instrumental variables. {it: Sociological Methods & Research} 32: 425-452.
+
+{p_end}
